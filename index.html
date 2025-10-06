@@ -3,19 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[powder] - Ana Sayfa</title>
+    <title>[BOT ADI] - Ana Sayfa</title>
     <style>
         /* Genel Sıfırlama ve Font */
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; }
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            color: #333; 
+            
+            /* ARKA PLAN AYARLARI BURADA BAŞLAR */
+            background-image: url('[ARCANEDEKİ JİNX GÖRSELİNİN URL\'Sİ]');
+            background-size: cover; /* Görseli ekranı kaplayacak şekilde ayarlar */
+            background-position: center center; /* Görseli ortalar */
+            background-attachment: fixed; /* Sayfa kaydırılsa bile görsel sabit kalır */
+            background-color: #23272A; /* Görsel yüklenmezse veya saydamlık varsa gösterilecek renk */
+            /* ARKA PLAN AYARLARI BURADA BİTER */
+        }
         
         /* Navbar Stilleri */
         .navbar {
-            background-color: #23272A; /* Discord'a yakın koyu renk */
+            background-color: rgba(35, 39, 42, 0.9); /* Yarı saydam koyu renk (arka planı hafif gösterir) */
             color: white;
             padding: 15px 20px;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            position: relative;
+            z-index: 10; /* Diğer içeriklerin üzerinde kalmasını sağlar */
         }
         .navbar a {
             color: white;
@@ -32,25 +47,25 @@
         .container {
             display: flex;
             max-width: 1200px;
-            margin: 20px auto;
-            background-color: white;
-            box-shadow: 0 0 15px rgba(0,0,0,0.15); /* Daha belirgin gölge */
-            border-radius: 8px; /* Hafif yuvarlak köşeler */
-            overflow: hidden; /* İçeriğin taşmasını engeller */
+            margin: 40px auto; /* Üst ve alttan daha fazla boşluk */
+            background-color: rgba(255, 255, 255, 0.95); /* İçeriğin daha okunur olması için hafif saydam beyaz */
+            box-shadow: 0 0 15px rgba(0,0,0,0.5); /* Koyu gölge (koyu arka plan için) */
+            border-radius: 8px; 
+            overflow: hidden; 
         }
         
         /* Sidebar Stilleri */
         .sidebar {
             width: 250px;
             padding: 20px;
-            background-color: #F8F8F8; /* Daha açık sidebar rengi */
-            border-right: 1px solid #eee;
+            background-color: rgba(248, 248, 248, 0.9); /* Hafif saydam sidebar */
+            border-right: 1px solid #ccc;
         }
         .sidebar h3 {
             border-bottom: 2px solid #ccc;
             padding-bottom: 10px;
             margin-top: 20px;
-            color: #5865F2; /* Başlık Rengi */
+            color: #5865F2; 
         }
         .sidebar ul {
             list-style: none;
@@ -65,11 +80,11 @@
             transition: color 0.3s;
         }
         .sidebar ul li:last-child a {
-            border-bottom: none; /* Son linkte çizgi olmasın */
+            border-bottom: none; 
         }
         .sidebar ul li a:hover {
             color: #5865F2;
-            padding-left: 5px; /* Hafif kaydırma efekti */
+            padding-left: 5px; 
         }
         
         /* Ana İçerik Stilleri */
@@ -105,7 +120,7 @@
 
     <div class="navbar">
         <div class="logo">
-            <a href="./index.html">🤖 **[Powder]**</a>
+            <a href="./index.html">🤖 **[BOT ADI]**</a>
         </div>
         <div class="nav-links">
             <a href="./index.html">Ana Sayfa</a>
@@ -123,18 +138,18 @@
             
             <h3>İletişim</h3>
             <ul>
-                <li><a href="[https://discord.gg/gMDMKbqE2w]" target="_blank">Destek Sunucusu</a></li>
-                <li><a href="mailto:[aqiloriflame2016@gmail.com]">Geliştirici İletişim</a></li>
+                <li><a href="[DESTEK SUNUCUSU DAVET LİNKİ]" target="_blank">Destek Sunucusu</a></li>
+                <li><a href="mailto:[E-POSTA ADRESİNİZ]">Geliştirici İletişim</a></li>
             </ul>
         </div>
         <div class="content">
             <h1>Discord Sunucunuz İçin League of Legends İstatistik Botu</h1>
-            <p><strong>[Powder]</strong>, Discord sunucunuz için tasarlanmış, anlık ve detaylı League of Legends dereceli verilerini Riot Games API'sini kullanarak sunan en gelişmiş bottur.</p>
+            <p><strong>[BOT ADI]</strong>, Discord sunucunuz için tasarlanmış, anlık ve detaylı League of Legends dereceli verilerini Riot Games API'sini kullanarak sunan en gelişmiş bottur.</p>
 
             <h2>🚀 Hemen Botu Ekleyin!</h2>
             <p>Aşağıdaki butona tıklayarak Bot'u Discord sunucunuza kolayca ekleyebilir ve LoL istatistiklerini anında görmeye başlayabilirsiniz:</p>
             
-            <a href="[https://discord.com/oauth2/authorize?client_id=1423623039865847918&permissions=2147483648&integration_type=0&scope=applications.commands+bot]" target="_blank" class="btn-discord">
+            <a href="[BOTUNUZUN GERÇEK DAVET LİNKİ]" target="_blank" class="btn-discord">
                 Botu Sunucuya Ekle
             </a>
             
