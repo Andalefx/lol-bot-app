@@ -1,12 +1,12 @@
-# 🤖 [BOTUNUZUN ADI] - League of Legends İstatistik Botu
+# 🤖 [Powder] - League of Legends İstatistik Botu
 
-**[BOTUNUZUN ADI]**, Discord sunucunuz için tasarlanmış, anlık ve detaylı League of Legends dereceli verilerini sunan en gelişmiş botudur. Oyuncuların performansını, sıralamasını ve maç geçmişini saniyeler içinde analiz edin!
+**[Powder]]**, Discord sunucunuz için tasarlanmış, anlık ve detaylı League of Legends dereceli verilerini sunan en gelişmiş botudur. Oyuncuların performansını, sıralamasını ve maç geçmişini saniyeler içinde analiz edin!
 
 ---
 
 ## Hemen Sunucuna Ekle!
 
-Discord sunucunuzun [BOT ADI] ile güçlenmesi için tek tık yeterli.
+Discord sunucunuzun [Powder]] ile güçlenmesi için tek tık yeterli.
 
 [![Botu Sunucuya Ekle](https://img.shields.io/badge/Botu_Sunucuya_Ekle-Discord-5865F2?style=for-the-badge&logo=discord)](https://discord.com/oauth2/authorize?client_id=1423623039865847918&scope=bot&permissions=2147483648) 
 **(Bu link, botunuzun gerçek davet linkiyle değiştirilmelidir.)**
