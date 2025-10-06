@@ -25,7 +25,7 @@
             color: #5865F2; /* Discord Mavisi */
         }
 
-        /* Ana İçerik ve Sidebar Düzeni */
+       
         .container {
             display: flex;
             max-width: 1200px;
