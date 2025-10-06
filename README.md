@@ -6,7 +6,7 @@
     <title>[BOT ADI] - Ana Sayfa</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; }
-        /* Navbar Stilleri */
+       
         .navbar {
             background-color: #333;
             color: white;
